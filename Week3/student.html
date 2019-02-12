@@ -1,0 +1,37 @@
+<head>
+    <!--removeIf(production)-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<body>
+    <a href="login.html">Log in</a>
+    <a href="index.html">Index</a>
+
+    <table>
+        <tr>
+            <th class="tablehead">Student ID</th>
+            <th class="tablehead">Email Address</th>
+        </tr>
+
+
+    </table>
+
+        <!-- inject:js -->
+        <!-- endinject -->
+
+        <!--removeIf(production)-->
+        <script src='js/students.js'></script>
+        <!--endRemoveIf(production)-->
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                initStudents();
+            });
+        </script>
+
+</body>

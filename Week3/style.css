@@ -1,0 +1,20 @@
+.tablehead
+{
+    font-size: 18px;
+    background-color: beige;
+    font-style: italic;
+}
+
+.homehead
+{
+    background-color: mediumspringgreen;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 4em;
+}
+
+img
+{
+    width: 6em;
+}
