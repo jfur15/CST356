@@ -1,18 +1,6 @@
-
-<head>
-    <!--removeIf(production)-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <!--endRemoveIf(production)-->
-    
-    <!-- inject:css -->
-    <!-- endinject -->
-</head>
-
-<body>
-
-<a href="login.html">Log in</a>
-<a href="student.html">Students</a>
+<template>
+  
+<div>
 <h1 class="homehead">Lab 1 Submission</h1>
 <h3>This is the first paragraph</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum nulla, maximus vitae pulvinar sed, imperdiet ac augue. Mauris tempus porta elit et lacinia. Maecenas dignissim libero ac enim aliquam facilisis. Vivamus sit amet lacus sit amet elit tristique congue. Integer eros dolor, ornare in egestas in, interdum quis sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum eget nulla mattis, venenatis erat sit amet, mollis nunc. Fusce vel odio eros. Donec non maximus ipsum.</p>
@@ -23,10 +11,47 @@
 <h3>This is the third paragraph</h3>
 <p>Vivamus suscipit neque eget egestas blandit. Phasellus tincidunt quam magna, in sollicitudin elit posuere vitae. Vivamus consectetur dui quis leo tincidunt lobortis. Nullam et tellus leo. In posuere suscipit velit, ut lobortis mi molestie venenatis. In tempor condimentum dolor quis ornare. Phasellus finibus maximus pretium. Aliquam laoreet sagittis magna, nec bibendum nulla ultricies ac. Cras at dui nec metus hendrerit suscipit. Curabitur pretium sagittis tellus, ut bibendum ex pretium ac. Cras rutrum euismod dolor, in pellentesque nunc vestibulum vel.</p>
 
-<img src="HTML.jpg">
+<img src="../assets/HTML.jpg">
 
 <pre>
     Hello this is in a monospaced font
 </pre>
 
-</body>
+</div>
+  
+</template>
+
+<script>
+export default {
+  name: 'Home',
+  data () {
+    return {
+      
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.tablehead
+{
+    font-size: 18px;
+    background-color: beige;
+    font-style: italic;
+}
+
+.homehead
+{
+    background-color: mediumspringgreen;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 4em;
+}
+
+img
+{
+    width: 6em;
+}
+</style>
