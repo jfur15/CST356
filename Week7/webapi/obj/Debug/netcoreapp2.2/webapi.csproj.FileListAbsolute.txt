@@ -1,0 +1,4 @@
+/home/devuan/School/CST356/Week6/webapi/obj/Debug/netcoreapp2.2/webapi.csprojAssemblyReference.cache
+/home/devuan/School/CST356/Week6/webapi/obj/Debug/netcoreapp2.2/webapi.csproj.CoreCompileInputs.cache
+/home/devuan/School/CST356/Week6/webapi/obj/Debug/netcoreapp2.2/webapi.AssemblyInfoInputs.cache
+/home/devuan/School/CST356/Week6/webapi/obj/Debug/netcoreapp2.2/webapi.AssemblyInfo.cs

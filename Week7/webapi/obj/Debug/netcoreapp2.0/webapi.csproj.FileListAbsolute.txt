@@ -1,0 +1,11 @@
+/home/devuan/School/CST356/Week5/webapi/bin/Debug/netcoreapp2.0/webapi.deps.json
+/home/devuan/School/CST356/Week5/webapi/bin/Debug/netcoreapp2.0/webapi.runtimeconfig.json
+/home/devuan/School/CST356/Week5/webapi/bin/Debug/netcoreapp2.0/webapi.runtimeconfig.dev.json
+/home/devuan/School/CST356/Week5/webapi/bin/Debug/netcoreapp2.0/webapi.dll
+/home/devuan/School/CST356/Week5/webapi/bin/Debug/netcoreapp2.0/webapi.pdb
+/home/devuan/School/CST356/Week5/webapi/obj/Debug/netcoreapp2.0/webapi.csproj.CoreCompileInputs.cache
+/home/devuan/School/CST356/Week5/webapi/obj/Debug/netcoreapp2.0/webapi.AssemblyInfoInputs.cache
+/home/devuan/School/CST356/Week5/webapi/obj/Debug/netcoreapp2.0/webapi.AssemblyInfo.cs
+/home/devuan/School/CST356/Week5/webapi/obj/Debug/netcoreapp2.0/webapi.dll
+/home/devuan/School/CST356/Week5/webapi/obj/Debug/netcoreapp2.0/webapi.pdb
+/home/devuan/School/CST356/Week5/webapi/obj/Debug/netcoreapp2.0/webapi.csprojAssemblyReference.cache

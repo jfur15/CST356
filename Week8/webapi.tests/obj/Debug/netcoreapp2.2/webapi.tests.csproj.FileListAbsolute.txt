@@ -1,0 +1,17 @@
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.deps.json
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.runtimeconfig.json
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.runtimeconfig.dev.json
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.dll
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.pdb
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.csprojAssemblyReference.cache
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.csproj.CoreCompileInputs.cache
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.AssemblyInfoInputs.cache
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.AssemblyInfo.cs
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.dll
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.pdb
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.dll
+/home/devuan/School/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.pdb
+/home/devuan/School/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.csproj.CopyComplete

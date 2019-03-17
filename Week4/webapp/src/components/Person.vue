@@ -15,7 +15,7 @@
         </tr>
         <tr>
             <td>Human</td>
-            <td>R</td>
+            <td>X</td>
             <td>Being</td>
         </tr>
         <tr>

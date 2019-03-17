@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/components/Home.vue</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/components</a> Home.vue
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/1</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
+  
+&lt;div&gt;
+&lt;h1 class="homehead"&gt;Lab 1 Submission&lt;/h1&gt;
+&lt;h3&gt;This is the first paragraph&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum nulla, maximus vitae pulvinar sed, imperdiet ac augue. Mauris tempus porta elit et lacinia. Maecenas dignissim libero ac enim aliquam facilisis. Vivamus sit amet lacus sit amet elit tristique congue. Integer eros dolor, ornare in egestas in, interdum quis sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum eget nulla mattis, venenatis erat sit amet, mollis nunc. Fusce vel odio eros. Donec non maximus ipsum.&lt;/p&gt;
+&nbsp;
+&lt;h3&gt;This is paragraph two.&lt;/h3&gt;
+&lt;p&gt;Maecenas nec tincidunt lectus, vitae sodales orci. Ut dolor arcu, maximus pulvinar nibh sed, feugiat tincidunt nisl. Aliquam consequat, ante sed tincidunt dapibus, sapien libero mattis erat, ac lobortis erat turpis fringilla dolor. Sed vel ornare sapien. Praesent blandit nunc nec accumsan faucibus. Donec porttitor nec erat at molestie. Quisque vitae efficitur eros, sit amet molestie nibh. In a lorem molestie, tempor neque eu, consectetur diam. Cras porttitor bibendum enim vel luctus. Mauris sit amet varius libero. Ut et ex sed justo consectetur bibendum. Donec venenatis fringilla ante, sed faucibus enim bibendum at. Pellentesque et risus iaculis est semper aliquam. Aenean bibendum, eros non ultricies finibus, leo nulla commodo velit, sed fermentum ipsum arcu at nisl. Nam accumsan quam sed iaculis dictum.&lt;/p&gt;
+&nbsp;
+&lt;h3&gt;This is the third paragraph&lt;/h3&gt;
+&lt;p&gt;Vivamus suscipit neque eget egestas blandit. Phasellus tincidunt quam magna, in sollicitudin elit posuere vitae. Vivamus consectetur dui quis leo tincidunt lobortis. Nullam et tellus leo. In posuere suscipit velit, ut lobortis mi molestie venenatis. In tempor condimentum dolor quis ornare. Phasellus finibus maximus pretium. Aliquam laoreet sagittis magna, nec bibendum nulla ultricies ac. Cras at dui nec metus hendrerit suscipit. Curabitur pretium sagittis tellus, ut bibendum ex pretium ac. Cras rutrum euismod dolor, in pellentesque nunc vestibulum vel.&lt;/p&gt;
+&nbsp;
+&lt;img src="../assets/HTML.jpg"&gt;
+&nbsp;
+&lt;pre&gt;
+    Hello this is in a monospaced font
+&lt;/pre&gt;
+&nbsp;
+&lt;/div&gt;
+  
+&lt;/template&gt;
+&nbsp;
+&lt;script&gt;
+export default {
+  name: 'Home',
+<span class="fstat-no" title="function not covered" >  data () {</span>
+<span class="cstat-no" title="statement not covered" >    return {</span>
+      
+    }
+  }
+}
+&lt;/script&gt;
+&nbsp;
+&lt;!-- Add "scoped" attribute to limit CSS to this component only --&gt;
+&lt;style scoped&gt;
+.tablehead
+{
+    font-size: 18px;
+    background-color: beige;
+    font-style: italic;
+}
+&nbsp;
+.homehead
+{
+    background-color: mediumspringgreen;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 4em;
+}
+&nbsp;
+img
+{
+    width: 6em;
+}
+&lt;/style&gt;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Mar 11 2019 18:19:14 GMT-0700 (PDT)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
