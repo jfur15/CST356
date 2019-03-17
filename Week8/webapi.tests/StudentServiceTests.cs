@@ -27,11 +27,11 @@ public class StudentServiceTests
         A.CallTo(() => _studentRepository.GetAllStudents()).Returns(
             new List<Student> {
                 new Student {
-                    StudentId=120,
+                    StudentId=1,
                     EmailAddress="aaa.bbbccc@oit.edu"
                 },
                 new Student {
-                    StudentId=120,
+                    StudentId=2,
                     EmailAddress="q@oit.edu"
                 }
             }
@@ -51,11 +51,11 @@ public class StudentServiceTests
         A.CallTo(() => _studentRepository.GetAllStudents()).Returns(
             new List<Student> {
                 new Student {
-                    StudentId=120,
+                    StudentId=1,
                     EmailAddress="aaa.bbbccc@oit.edu"
                 },
                 new Student {
-                    StudentId=120,
+                    StudentId=2,
                     EmailAddress="aeiouaeiou.aeiou@oit.edu"
                 }
 
